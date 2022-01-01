@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="lib/jquery.js"></script>
+</head>
+<body>
+    <button id="btnPost">点击</button>
+    <script>
+        $('#btnPost').on('click', function (){
+            $.post("http://www.liulongbin.top:3006/api/addbook",
+                {bookname: '水浒传', author: '施耐庵', publisher: '上海图书出版社' },
+                function (res){
+                    console.log(res);
+                }
+            )
+        })
+    </script>
+</body>
+</html>

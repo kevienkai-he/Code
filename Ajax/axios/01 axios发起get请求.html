@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/axios.js"></script>
+</head>
+<body>
+<button id="btn">发起get请求</button>
+
+<script>
+    document.querySelector("#btn").addEventListener("click", function (){
+        let url = "http://www.liulongbin.top:3006/api/get"
+        let paramsObj = {name:'zs', age:20}
+        axios.get(url, {params: paramsObj}).then(function (res){
+            let result  = res.data;
+            console.log(result);
+        })
+    })
+</script>
+</body>
+</html>

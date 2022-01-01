@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="lib/jquery.js"></script>
+    <!--导入模板文件-->
+    <script src="lib/template-web.js"></script>
+</head>
+<body>
+<div id="container">
+
+</div>
+<script type="text/html" id="art-test">
+    <h1>{{@ value}}</h1>
+    <h2>姓名：{{name}}</h2>
+    <h2>年龄：{{age}}</h2>
+    {{if age>=18}}
+    已经成年
+    {{else}}
+    未成年
+    {{/if}}
+    <ul>
+        {{each hobbies}}
+        <li>{{$value}}</li>
+        {{/each}}
+    </ul>
+    <div>
+        <h4>注册时间：{{regTime | dataFilter}}</h4>
+    </div>
+</script>
+<script>
+    /*设置时间过滤器*/
+    template.defaults.imports.dataFilter = function (date) {
+        let y = date.getFullYear();
+        let m = date.getMonth() + 1;
+        let d = date.getDate();
+        return y + '-' + m + '-' + d;
+    }
+    /*设置数据*/
+    let data = {
+        name:'kevienkai',
+        age:17,
+        value:'<h1>个人信息资料库</h1>',
+        hobbies:['代码', '运动', '游戏', '看书'],
+        regTime:new Date()
+    }
+    let htmlStr = template('art-test', data);
+    $('#container').html(htmlStr);
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/axios.js"></script>
+</head>
+<body>
+<button id="btn">发起post请求</button>
+<script>
+    document.querySelector("#btn").addEventListener("click", function (){
+        let url = "http://www.liulongbin.top:3006/api/post"
+        let dataObj = {location:'北京', address:'顺义'}
+
+        axios.post(url,dataObj).then(function (res){
+            let value= res.data;
+            console.log(value);
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./lib/jquery.js"></script>
+</head>
+<body>
+<script>
+    $(function (){
+        $.ajax({
+            url:"http://www.liulongbin.top:3006/api/jsonp?name=zs&age=20",
+            dataType:"jsonp",
+            success:function (res){
+                console.log(res);
+            }
+        })
+    })
+</script>
+</body>
+</html>

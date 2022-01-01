@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="lib/jquery.js"></script>
+</head>
+<body>
+<button id="btnAjaxP">点击</button>
+<script>
+    $(function (){
+        $('#btnAjaxP').on('click', function(){
+            $.ajax({
+                type:'post',
+                url:'http://www.liulongbin.top:3006/api/addbook',
+                data:{
+                    bookname: '英语',
+                    author: 'kkk',
+                    publisher: '上海图书出版社'
+                },
+                success:function (res){
+                    console.log(res)
+                }
+            })
+        })
+    })
+</script>
+</body>
+</html>

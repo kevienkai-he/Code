@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let xhr = new XMLHttpRequest();
+
+    xhr.open('get', "http://www.liulongbin.top:3006/api/getbooks");
+
+    xhr.send();
+
+    xhr.onreadystatechange = function (){
+        if(xhr.readyState === 4&&xhr.status === 200){
+            // console.log(xhr.responseText);
+            /*xhr.responseText 返回的是json格式的数据类型*/
+
+            let objBooks = JSON.parse(xhr.responseText);
+            console.log(objBooks);
+        }
+    }
+</script>
+</body>
+</html>
