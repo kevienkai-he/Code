@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4df129b1-02de-4b4d-8d7c-fd070202014c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="21gTRxL1rvIAMEodS6Bt7a9y3Yp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ajax/Jsonp" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\Ajax\Jsonp" />
+      <recent name="C:\Users\hkq\Desktop\code\Ajax\ajax_basic" />
+      <recent name="C:\Users\hkq\Desktop\code\vue\vuecli_demo\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Ajax\Jsonp" />
+      <recent name="E:\code\Ajax\axios\js" />
+      <recent name="E:\code\Ajax\XMLHttpRequest level2" />
+      <recent name="E:\code\Ajax\ajax_basic" />
+      <recent name="E:\code\Ajax\art-template\案例-新闻列表\lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4df129b1-02de-4b4d-8d7c-fd070202014c" name="Default Changelist" comment="" />
+      <created>1638361726473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638361726473</updated>
+      <workItem from="1638361727504" duration="5679000" />
+      <workItem from="1638441336595" duration="9354000" />
+      <workItem from="1638711955513" duration="48000" />
+      <workItem from="1638877393544" duration="6882000" />
+      <workItem from="1638964937320" duration="9000" />
+      <workItem from="1638964954966" duration="6821000" />
+      <workItem from="1639052099257" duration="1842000" />
+      <workItem from="1639140610141" duration="628000" />
+      <workItem from="1639403147630" duration="33000" />
+      <workItem from="1639403192540" duration="1488000" />
+      <workItem from="1639483465433" duration="6980000" />
+      <workItem from="1639491364439" duration="2424000" />
+      <workItem from="1639568555948" duration="5097000" />
+      <workItem from="1639655351984" duration="6195000" />
+      <workItem from="1639739363764" duration="5147000" />
+      <workItem from="1639813502132" duration="4786000" />
+      <workItem from="1639918797242" duration="5906000" />
+      <workItem from="1640002495548" duration="1194000" />
+      <workItem from="1640004290355" duration="140000" />
+      <workItem from="1640004443058" duration="3584000" />
+      <workItem from="1640087026496" duration="527000" />
+      <workItem from="1640087562989" duration="126000" />
+      <workItem from="1640087697778" duration="371000" />
+      <workItem from="1640088082052" duration="1510000" />
+      <workItem from="1640090478369" duration="4674000" />
+      <workItem from="1640260987145" duration="325000" />
+      <workItem from="1640261321202" duration="5482000" />
+      <workItem from="1640602439775" duration="7762000" />
+      <workItem from="1640688222068" duration="8657000" />
+      <workItem from="1640776343282" duration="3763000" />
+      <workItem from="1640865167356" duration="5861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="735" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640697906160">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="735" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640697906160" />
+    <state x="804" y="298" key="FileChooserDialogImpl" timestamp="1640870542575">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="804" y="298" key="FileChooserDialogImpl/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640870542575" />
+    <state width="2027" height="277" key="GridCell.Tab.0.bottom" timestamp="1639816088039">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="277" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1639816088039" />
+    <state width="2027" height="277" key="GridCell.Tab.0.center" timestamp="1639816088039">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="277" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1639816088039" />
+    <state width="2027" height="277" key="GridCell.Tab.0.left" timestamp="1639816088039">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="277" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1639816088039" />
+    <state width="2027" height="277" key="GridCell.Tab.0.right" timestamp="1639816088039">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2027" height="277" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1639816088039" />
+    <state x="570" y="171" width="996" height="850" key="SettingsEditor" timestamp="1640090641173">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="570" y="171" width="996" height="850" key="SettingsEditor/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640090641173" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1640777422713">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640777422713" />
+  </component>
+</project>
