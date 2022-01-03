@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="lib/jquery.js"></script>
+    <!--1、导入模板引擎-->
+    <script src="lib/template-web.js"></script>
+</head>
+<body>
+<div id="container">
+
+</div>
+
+<!--3、准备模板-->
+<script type="text/html" id="module">
+    {{@ title}}
+    <p>{{name}}</p>
+    <p>
+        {{if age > 18}}
+        你成年了
+        {{/if}}
+    </p>
+    <ul>
+        {{each hobby}}
+        <li>
+            {{$index}}-----{{$value}}
+        </li>
+        {{/each}}
+    </ul>
+
+    <h4>注册时间：{{birth | dateFormat}}</h4>
+
+</script>
+<script>
+    template.defaults.imports.dateFormat = function (res){
+        let y = res.getFullYear();
+        let m = res.getMonth() + 1;
+        let d = res.getDate();
+        return  y + "-" + m + "-" + d;
+    }
+    /*2、准备数据*/
+    let data = {
+        title: '<h3>用户信息</h3>',
+        name: 'zs',
+        age: 20,
+        isVIP: true,
+        regTime: new Date(),
+        hobby: ['吃饭', '睡觉', '打豆豆'],
+        birth: new Date()
+    }
+    //调用template函数
+    let htmlStr = template("module", data);
+
+    $("#container").html(htmlStr);
+</script>
+</body>
+</html>

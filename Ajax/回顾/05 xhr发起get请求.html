@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+
+<script>
+    /*创建xhr对象*/
+    let xhr = new XMLHttpRequest();
+    /*调用open*/
+    xhr.open("get", 'http://www.liulongbin.top:3006/api/getbooks');
+    /*调用send函数*/
+    xhr.send()
+    /*监听*/
+    xhr.onreadystatechange = function (){
+        if(xhr.readyState === 4 && xhr.status === 200){
+            console.log(JSON.parse(xhr.responseText));
+        }
+    }
+</script>
+</body>
+</html>

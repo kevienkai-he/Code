@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4df129b1-02de-4b4d-8d7c-fd070202014c" name="Default Changelist" comment="" />
+    <list default="true" id="4df129b1-02de-4b4d-8d7c-fd070202014c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/01 get不带参数的请求.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/02 带参数的请求,.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/03 获取表单中的数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/04 模板引擎的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/05 xhr发起get请求.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/06 xhr发起post请求.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/template-web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/01 测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/01 测试.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/js/Ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/js/Ajax.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="21gTRxL1rvIAMEodS6Bt7a9y3Yp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,23 +34,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ajax/Jsonp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ajax/回顾" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\code\Ajax\Jsonp" />
-      <recent name="C:\Users\hkq\Desktop\code\Ajax\ajax_basic" />
-      <recent name="C:\Users\hkq\Desktop\code\vue\vuecli_demo\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Ajax\回顾" />
       <recent name="E:\code\Ajax\Jsonp" />
       <recent name="E:\code\Ajax\axios\js" />
       <recent name="E:\code\Ajax\XMLHttpRequest level2" />
       <recent name="E:\code\Ajax\ajax_basic" />
-      <recent name="E:\code\Ajax\art-template\案例-新闻列表\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\Ajax\Jsonp" />
+      <recent name="C:\Users\hkq\Desktop\code\Ajax\ajax_basic" />
+      <recent name="C:\Users\hkq\Desktop\code\vue\vuecli_demo\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +92,7 @@
       <workItem from="1640688222068" duration="8657000" />
       <workItem from="1640776343282" duration="3763000" />
       <workItem from="1640865167356" duration="5861000" />
+      <workItem from="1641171412217" duration="11541000" />
     </task>
     <servers />
   </component>
@@ -108,9 +128,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="570" y="171" width="996" height="850" key="SettingsEditor/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640090641173" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1640777422713">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1641193089810">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640777422713" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1641193089810" />
   </component>
 </project>

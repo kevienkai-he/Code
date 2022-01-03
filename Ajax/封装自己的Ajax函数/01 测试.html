@@ -6,6 +6,20 @@
     <script src="js/Ajax.js"></script>
 </head>
 <body>
-
+<script>
+    /*调用自己的Ajax函数*/
+    myAjax({
+        method:'post',
+        url: 'http://www.liulongbin.top:3006/api/addbook',
+        data: {
+            bookname: '水浒传',
+            author: '施耐庵',
+            publisher: '北京图书出版社'
+        },
+        success:function (res){
+            console.log(res);
+        }
+    })
+</script>
 </body>
 </html>
