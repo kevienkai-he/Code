@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df129b1-02de-4b4d-8d7c-fd070202014c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/01 get不带参数的请求.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/02 带参数的请求,.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/03 获取表单中的数据.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/04 模板引擎的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/05 xhr发起get请求.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/06 xhr发起post请求.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/回顾/lib/template-web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/回顾/07 上传文件案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/Mysql/01 操作数据库.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/cors+jsonp/01 跨域的问题..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/01 使用express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/02  使用express提供静态资源.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/03 模块化路由.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/04 router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/05 定义最简单的中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/06 中间件的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/07 内置中间件json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/08 第三方中间件body-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/09 自定义解析表单数据的中间件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/10 自定义解析表单数据模块化处理.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/11 custom-body-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/12 express写接口.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/13 apiRounter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/clock/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/clock/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/express/clock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/src/components/TodoFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/src/components/TodoHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/src/components/TodoMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/src/styles/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/src/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/review/todo/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/01 测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/01 测试.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/js/Ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/封装自己的Ajax函数/js/Ajax.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="21gTRxL1rvIAMEodS6Bt7a9y3Yp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,18 +55,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ajax/回顾" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodejs/express" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\nodejs\express" />
+      <recent name="E:\code\vue\review\todo\src" />
       <recent name="E:\code\Ajax\回顾" />
       <recent name="E:\code\Ajax\Jsonp" />
       <recent name="E:\code\Ajax\axios\js" />
-      <recent name="E:\code\Ajax\XMLHttpRequest level2" />
-      <recent name="E:\code\Ajax\ajax_basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\Ajax\Jsonp" />
@@ -93,6 +114,17 @@
       <workItem from="1640776343282" duration="3763000" />
       <workItem from="1640865167356" duration="5861000" />
       <workItem from="1641171412217" duration="11541000" />
+      <workItem from="1641195418058" duration="11877000" />
+      <workItem from="1641298635267" duration="2121000" />
+      <workItem from="1641384919039" duration="691000" />
+      <workItem from="1641385629413" duration="79000" />
+      <workItem from="1641385716721" duration="5931000" />
+      <workItem from="1641472525611" duration="17000" />
+      <workItem from="1641472549656" duration="644000" />
+      <workItem from="1641473205653" duration="2498000" />
+      <workItem from="1641475718521" duration="3095000" />
+      <workItem from="1641797390989" duration="12204000" />
+      <workItem from="1641863074742" duration="6007000" />
     </task>
     <servers />
   </component>
@@ -124,13 +156,17 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2027" height="277" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1639816088039" />
-    <state x="570" y="171" width="996" height="850" key="SettingsEditor" timestamp="1640090641173">
+    <state x="570" y="171" width="996" height="850" key="SettingsEditor" timestamp="1641473186675">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="570" y="171" width="996" height="850" key="SettingsEditor/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1640090641173" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1641193089810">
+    <state x="570" y="171" width="996" height="850" key="SettingsEditor/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1641473186675" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1641886385329">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1641193089810" />
+    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1641886385329" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1641863639814">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.353.1920.1040@0.0.2048.1112" timestamp="1641863639814" />
   </component>
 </project>

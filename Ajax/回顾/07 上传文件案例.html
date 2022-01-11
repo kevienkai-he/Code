@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <script src="lib/jquery.js"></script>
+</head>
+<body>
+<input type="file" name="" id="file">
+<button type="submit" id="btnFn">提交</button>
+<br>
+<div class="progress" style="width: 600px;">
+    <div class="progress-bar progress-bar-striped active"  style="width: 0%" id="percent">
+        0%
+    </div>
+</div>
+<!--显示提交后的图片-->
+<img src=""  width="500" id="img">
+
+<script>
+    /*获取submit按钮*/
+    let btnUpload = document.querySelector("#btnFn");
+    btnUpload.addEventListener("click", function (){
+        /*获取上传的文件， 返回的是一个数组*/
+        let files = document.querySelector("#file").files;
+        /*判断文件是否为空*/
+        if(files.length <= 0) {
+            alert("请上传文件");
+        }
+        /*创建fd对象*/
+        let fd = new FormData();
+
+
+        fd.append("avatar", files[0]);
+
+        /*将文件添加到服务器中*/
+        let xhr = new XMLHttpRequest();
+        /*显示上传进度*/
+        xhr.upload.onprogress = function (e){
+            /*如果e.lengthComputable存在*/
+            if(e.lengthComputable){
+                /*Math.ceil向上取整*/
+                let percentComplete = Math.ceil((e.loaded/e.total)*100);
+                console.log(percentComplete);
+                $("#percent").attr("style","width: " + percentComplete + "%").html(percentComplete + "%")
+            }
+        }
+
+        xhr.upload.onload = function (){
+            $("#percent").removeClass().addClass("progress-bar progress-bar-success");
+        }
+
+        xhr.open('post', "http://www.liulongbin.top:3006/api/upload/avatar");
+        xhr.send(fd);
+
+        xhr.onreadystatechange = function (){
+            if(xhr.readyState === 4 && xhr.status === 200){
+                let data = JSON.parse(xhr.responseText);
+
+                if(data.status === 200){
+                    document.querySelector("#img").src = "http://www.liulongbin.top:3006" + data.url;
+                }
+                else {
+                    console.log("图片上传失败" + data.message)
+                }
+            }
+        }
+
+    })
+</script>
+</body>
+</html>
